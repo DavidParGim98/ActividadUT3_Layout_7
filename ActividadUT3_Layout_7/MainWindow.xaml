@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ActividadUT3_Layout_7"
         mc:Ignorable="d"
-        Title="Formulario" Height="450" Width="800" MinWidth="800" Icon="icon.ico">
+        Title="Formulario" Height="450" Width="800" MinWidth="950" Icon="icon.ico">
     
         <DockPanel LastChildFill="True" Margin="5">
             <TextBlock DockPanel.Dock="Top" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold">Formulario</TextBlock>
@@ -18,10 +18,10 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="3*"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             
-            <Image Grid.Column="1" Source="foto.jpg" Margin="10" MinWidth="200" MaxHeight="300" />
+            <Image Grid.Column="1" Source="foto.jpg" Margin="10" />
 
             <StackPanel Orientation="Vertical" Margin="10">
                 <Border Background="LightCoral" BorderBrush="Black" BorderThickness="2" CornerRadius="3">
