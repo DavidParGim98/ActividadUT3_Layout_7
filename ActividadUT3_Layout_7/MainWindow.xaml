@@ -21,7 +21,7 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             
-            <Image Grid.Column="1" Source="foto.jpg" Margin="10" />
+            <Image Grid.Column="1" Source="foto.jpg" Margin="10" Stretch="Fill"/>
 
             <StackPanel Orientation="Vertical" Margin="10">
                 <Border Background="LightCoral" BorderBrush="Black" BorderThickness="2" CornerRadius="3">
